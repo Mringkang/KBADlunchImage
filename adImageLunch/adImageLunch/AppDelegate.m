@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     
-    KBADImageView *iView = [[KBADImageView alloc]initWithWindow:self.window andWithType:FullScreenAdType andWithImgUrl:@"http://www.uisheji.com/wp-content/uploads/2013/04/19/app-design-uisheji-ui-icon20121_55.jpg"];
+    KBADImageView *iView = [[KBADImageView alloc]initWithWindow:self.window andWithType:FullScreenAdType andWithImgUrl:@"https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1467883363&di=c107ba6883c2b8dc0cae9fe936456a81&src=http://pic74.nipic.com/file/20150803/21286361_124348932000_2.jpg"];
     iView.btnClickBlock = ^(NSInteger tag){
         
         switch (tag) {

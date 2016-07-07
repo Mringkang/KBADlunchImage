@@ -70,7 +70,7 @@
         } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
            
             if (image) {
-                // 画上
+                // 画上, 等比例拉伸充满屏幕
                 [self.adImgView setImage:[self imageCompressForWidth:image targetWidth:KBWidth]];
             }
             
